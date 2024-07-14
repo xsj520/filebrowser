@@ -11,9 +11,6 @@
 
 首次运行前，需要手动下载可执行文件，如果你的空间足够大，推荐可执行文件目录配置为`/usr/bin`，否则根据需要放到你认为合适的目录。（路径不能包含空格）
 
-![preview.png](preview.png)
-
-![preview2.png](preview2.png)
 
 
 # 构建
@@ -21,7 +18,7 @@
 Release页有编译好的ipk包，可直接安装，或者可以手动编译
 
 ```
-git clone https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
+git clone https://github.com/xsj520/filebrowser package/luci-app-filebrowser
 make package/luci-app-filebrowser/compile
 ```
 
